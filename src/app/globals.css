@@ -95,9 +95,3 @@ a {
     color-scheme: dark;
   }
 }
-
-body.ReactModal__Body--open {
-  width: 100%;
-  position: fixed;
-  overflow: hidden !important;
-}
