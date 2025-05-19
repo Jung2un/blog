@@ -17,7 +17,7 @@ export default function RootLayout({
 }) {
     return (
         <html lang="ko">
-        <body className={layout.pretend}>
+        <body className={`${layout.pretend} light`}>
         <DarkModeProvider>
             <Header />
             <div className={layout.mainLayout} id="__next">
