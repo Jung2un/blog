@@ -87,48 +87,47 @@ export default function ResumeSection() {
             </SectionBox>
             <SectionBox title="프로젝트">
             <div>
-                <p><b>📁 로그 채증 에이전트 개발 | KERIS (2025.01 ~ 2025.03)</b></p>
+                <p><b>📁 로그 채증 에이전트 개발 (2025.01 ~ 2025.03)</b></p>
                 <div className={styles.ml27}>
                     <ul>
                         <li>목표: 교육기관의 보안 진단 및 로그 분석을 위한 Windows 로그 수집 에이전트 개발</li>
                         <li>주요 작업</li>
                         <ul className={styles.ml15}>
                             <li>
-                                시스템 로그 자동 수집 기능 구현 (Event Log, FileSystem, Registry)
+                                Windows 환경 전용 Python 기반 로그 수집 에이전트 100% 단독 개발
                             </li>
-                            <li>브라우저 히스토리 및 사용자 활동 기록 추출 기능 개발</li>
-                            <li>단일 EXE 실행 구조 패키징</li>
+                            <li>Event Log, 시스템 로그 자동 수집 기능 개발 및 모듈 자동 import 기능 구현</li>
+                            <li>내부 테스트 환경 구성</li>
                         </ul>
-                        <li>기술: Python</li>
+                        <li>기술: Python, PowerShell</li>
                     </ul>
                 </div>
             </div>
             <div className={styles.mt30}>
-                <p><b>📁 개인정보보호 자율점검 시스템 | 한국인터넷진흥원 (2024.11 ~ 2024.12)</b></p>
+                <p><b>📁 개인정보보호 자율점검 시스템 (2024.11 ~ 2024.12)</b></p>
                 <div className={styles.ml27}>
                     <ul>
                         <li>목표: 한국인터넷진흥원 개인정보 자율점검 서비스 구축</li>
                         <li>주요 작업</li>
                         <ul className={styles.ml15}>
-                            <li>관리자 기능: 자율점검표 관리, 점검 현황 API 연동 및 데이터 관리 기능 개발</li>
-                            <li>사용자 기능: 자율점검 수행, 제출 내역 확인 및 모바일 반응형 UI 개발</li>
-                            <li>서비스 안정화 및 유지보수 편의성 향상</li>
+                            <li>관리자 페이지: 자율점검표 관리 관리 및 점검 현황 API 연동 기능 구현</li>
+                            <li>사용자 페이지: 자율점검 수행, 제출 내역 확인 기능 구현</li>
+                            <li>기존 웹 화면을 모바일 환경 대응을 위해 반응형 UI로 전면 개선</li>
                         </ul>
                         <li>기술: Java, Cubrid, JSTL</li>
                     </ul>
                 </div>
             </div>
             <div className={styles.mt30}>
-                <p><b>📁 AI 개인정보 탐지 시스템 개발 | 한국인터넷진흥원 (2023.02 ~ 2024.12)</b></p>
+                <p><b>📁 AI 개인정보 탐지 시스템 개발 (2023.02 ~ 2024.12)</b></p>
                 <div className={styles.ml27}>
                     <ul>
                         <li>목표: 개인정보를 포함한 문서 데이터에 대한 탐지 및 비식별화 처리 시스템 구축</li>
                         <li>주요 작업</li>
                         <ul className={styles.ml15}>
-                            <li>개인정보 탐지 및 비식별 처리 기능을 포함한 메인 서비스 화면 및 전체 UI 구성</li>
-                            <li>입력 문장을 기반으로 API 연동하여 개인정보 탐지 및 비식별화 기능을 구현</li>
-                            <li>관리자 기능: 사용자 키 관리, 대시보드, 통계 시각화 화면 개발</li>
-                            <li>사용자 기능: 키 발급/삭제, 통계 확인 기능 개발</li>
+                            <li>개인정보 탐지·비식별 처리 포함 전체 서비스 UI 100% 단독 구현 및 API 연동</li>
+                            <li>키 관리, 통계 시각화, 대시보드 등 관리자 기능 포함 UI 고도화</li>
+                            <li>사용자가 로그인 후 키 발급 및 editor에서 탐지·비식별화 테스트 가능한 체험형 UI 구현</li>
                         </ul>
                         <li>기술: React, JavaScript</li>
                     </ul>
